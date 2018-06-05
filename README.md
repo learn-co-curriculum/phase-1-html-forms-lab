@@ -2,18 +2,18 @@
 
 ## Problem Statement
 
-Business and company websites of all types and sizes typically want to provide
-multiple ways for their customers or potential customers to contact them.  One
-of the most common ways to do this is to provide a _contact form_.
+Business of all types and sizes want to provide multiple ways for their potential
+customers to contact them.  One of the most common ways to do this is on a website is to provide
+a _contact form_.
 
 In this lab, we will practice what we've learned about HTML forms by creating a
 contact form similar to those we see on business websites.
 
 ## Objectives
 
-1. Apply our understanding of HTML forms by building a functional a contact form
+1. Apply what we know of HTML forms to build a functional a contact form
 
-## Deliverables
+## Reinforcing Our Understanding of HTML Forms
 
 To see and test your form in action, run `httpserver` or open `index.html` in a
 new browser tab. To test your work, run `learn`.
@@ -32,13 +32,14 @@ when creating the form.  At completion, your form should have:
 
 ### The `required` Attribute
 
-The `required` attribute will prevent the browser from submitting the form until
-all required inputs are filled in properly. This is functionality is baked into
-HTML5 for us automatically, all that is needed is to include the word 'required'
-as an attribute, without setting it to any value.
+The `required` attribute prevents the browser from submitting a form.  All
+required inputs must be filled in properly, preventing an unneeded page reload.
+This functionality is baked into HTML5 for us automatically. All that is
+needed is to include the word `required` as an attribute, without setting it to
+any value.
 
 When an input is required, the `type` attribute (e.g., `text` vs `email`) will
-determine what the browser checks, so in the case of an email, the input must
+determine what the browser checks. In the case of an email, for instance, the input must
 match the format of an email address, including the "@".
 
 ## Conclusion
@@ -47,8 +48,8 @@ Forms are an essential way for users to submit data to a website. Some forms,
 like search bars, only contain a single input field, but we can make them as
 complex as we need.
 
-We will only be focused on building out the front end side of this form - it is
-typically up to the _backend_ of a website to decide how to handle and store
-form data when submitted, which is not within the scope of this lesson.
+We are only focused on building out the front end side of this form.  When a
+form is submitted, it is up to the _backend_ of a website to decide how to
+handle and store form data when submitted.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
