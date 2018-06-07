@@ -42,9 +42,10 @@ our required fields are the Owner Name and Email. The `required` attribute
 prevents the browser from submitting a form unless they are filled in properly.
 
 Luckily for us, This functionality is built into HTML5 already. All we need to
-do is include the word `required` as an attribute, i.e.: `<input type="text" id="name" required>`
+do is include the word `required` as an attribute, i.e.: 
+`<input type="text" id="name" required>`
 
-When an input is required, the `type` attribute (e.g., `text` vs `email`) will
+When an input is required, the `type` attribute (i.e., `text` vs `email`) will
 determine what the browser checks. In the case of an email, for instance, the
 input must match the format of an email address, including the "@".
 
