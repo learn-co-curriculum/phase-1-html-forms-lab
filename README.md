@@ -58,7 +58,9 @@ complex as we need.
 
 Right now, we are only focused on building out the front end side of this form.
 When a form is submitted, it is up to the _backend_ of a website to decide how
-to handle and store form data when submitted. Now you've got everything you need
-to keep in contact with current clients, and connect with new ones!
+to handle and store form data. 
+
+Once you implement your form, you will have everything you need to keep in
+contact with current clients and connect with new ones!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
