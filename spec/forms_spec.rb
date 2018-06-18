@@ -19,7 +19,7 @@ RSpec.describe 'index.html' do
       expect(input.attributes["placeholder"]).to match(/Enter Name/) , "The first input should have a placeholder set to 'Enter Name'"
     end
 
-    it 'contains an "email" type <input> tag with an id of "email" and placeholder equal to "Enter Name" ' do
+    it 'contains an "email" type <input> tag with an id of "email" and placeholder equal to "Enter Email" ' do
       input = parsed_html.search('input')[1]
       expect(input.attributes["type"]).to_not be_nil, "No type attribute was found on the second 'input' tag"
       expect(input.attributes["type"]).to match(/email/) , "The second input should have an type set to 'email'"
