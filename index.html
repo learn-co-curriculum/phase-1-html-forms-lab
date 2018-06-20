@@ -3,46 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>My Awesome Company Contact Page</title>
+    <title>My Awesome Dog Walking Contact Page</title>
   </head>
   <body>
 
-    <h1>Company Inc.</h1>
-    <h2>For all your incorporated company needs</h2>
+    <h1>Walkies, Inc.</h1>
+    <h2>For all your dog walking needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-    <form action="#" method="post">
+    <form action="post">
+      <!-- Add a label for 'ownername'-->
+      <!-- Add a text input with the id and name attributes set to 'ownername' -->
+      <!-- Include the place holder text "Owner Name" and make this input required -->
+      <label for="ownername">Owner Name</label>
+      <input type="text" id="ownername" name="ownername" placeholder="Owner Name" required>
 
-      <!-- Add a label for 'fullname'-->
-      <label for="fullname">Name</label>
-      <!-- Add a text input with the id and name attributes set to 'fullname' -->
-      <!-- Include the place holder text "Enter Name" and make this input required -->
-      <input type="text" id="fullname" placeholder="Enter Name" required>
 
       <!-- Add a label for 'email'-->
-      <label for="email">Email</label>
-      <!-- Add a text input with the id and name attributes set to 'email' -->
-      <!-- Include the place holder text "Enter Email" and make this input required -->
-      <input type="email" id="email" placeholder="Enter Email" required>
+      <!-- Add an email input with the id and name attributes set to 'email' -->
+      <!-- Include the place holder text "Owner Email" and make this input required -->
+      <label for="email">Owner Email</label>
+      <input type="email" id="email" name="email" placeholder="Owner Email" required>
+
 
       <!-- Add a label for 'phone'-->
-      <label for="phone">Phone</label>
-      <!-- Add a text input with the id and name attributes set to 'phone' -->
-      <!-- Include the place holder text "Enter Telephone (optional)" -->
-      <input type="tel" id="phone" placeholder="Enter Telephone (optional)">
+      <!-- Add a tel input with the id and name attributes set to 'phone' -->
+      <!-- Include the place holder text "Owner Telephone (optional)" -->
+      <label for="phone">Owner Telephone (optional)</label>
+      <input type="tel" id="phone" name="phone" placeholder="Owner Telephone (optional)">
+
 
       <!-- Add a label for 'message'-->
-      <label for="message">Message</label>
       <!-- Add a textarea with the id and name attributes set to 'message' -->
-      <!-- Include the place holder text "Enter Message" -->
-      <textarea id="message" name="message" rows="10" placeholder="Enter Message"></textarea>
+      <!-- Include the place holder text "Dog notes" -->
+      <label for="message">Anything we should know about your dog?</label>
+      <textarea id="message" name="message" placeholder="Dog notes">
+
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-      <label for="checkbox">
-        <input id="checkbox" type="checkbox">Click here to agree to...</input>
-      </label>
-      <!-- Add a checkbox input with the type set to 'submit' -->
-      <input type="submit" value="send">
-    </form>
+      <h3>What are your dogs favorite toys?</h3>
+      <input type="checkbox" id="checkbox" name="toy-1" value="kong"> Kong <br>
+      <input type="checkbox" id="checkbox" name="toy-2" value="stuffed-animals">Stuffed Animals<br>
+      <input type="checkbox" id="checkbox" name="toy-3" value="rope-toys">Rope Toys<br>
+      <input type="checkbox" id="checkbox" name="toy-4" value="squeaky-toys">Squeaky Toys<br>
+      <input type="checkbox" id="checkbox" name="toy-5" value="balls">Balls, Frisbees, anything a dog can fetch!<br>
+
+      <!-- Add an input with the type set to 'submit' -->
+      <input type="submit" value="Let me walk your dog!">
+      </form>
   </body>
 </html>
