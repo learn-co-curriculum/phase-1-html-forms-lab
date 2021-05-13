@@ -51,5 +51,3 @@ complex as we need.
 We are only focused on building out the front end side of this form.  When a
 form is submitted, it is up to the _backend_ of a website to decide how to
 handle and store form data when submitted.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/html-map-contact-form-code-along'>HTML Map Contact Form Code-along</a> on Learn.co and start learning to code for free.</p>
