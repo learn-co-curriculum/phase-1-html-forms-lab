@@ -1,4 +1,4 @@
-# HTML Contact Form Lab
+# HTML Forms Lab
 
 ## Problem Statement
 
@@ -11,7 +11,7 @@ contact form similar to those we see on business websites.
 
 ## Objectives
 
-1. Apply what we know of HTML forms to build a functional a contact form
+1. Apply what we know of HTML forms to build a functional contact form
 
 ## Reinforcing Our Understanding of HTML Forms
 
