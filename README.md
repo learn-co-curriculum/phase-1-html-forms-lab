@@ -1,6 +1,10 @@
 # HTML Forms Lab
 
-## Problem Statement
+## Learning Goals
+
+- Apply what we know of HTML forms to build a functional contact form
+
+## Introduction
 
 Business of all types and sizes want to provide multiple ways for their potential
 customers to contact them.  One of the most common ways to do this is on a website is to provide
@@ -8,10 +12,6 @@ a _contact form_.
 
 In this lab, we will practice what we've learned about HTML forms by creating a
 contact form similar to those we see on business websites.
-
-## Objectives
-
-1. Apply what we know of HTML forms to build a functional contact form
 
 ## Reinforcing Our Understanding of HTML Forms
 
