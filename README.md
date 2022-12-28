@@ -16,7 +16,7 @@ contact form similar to those we see on business websites.
 ## Reinforcing Our Understanding of HTML Forms
 
 To see and test your form in action, run `httpserver` or open `index.html` in a
-new browser tab. To test your work, run `learn test`.
+new browser tab. To test your work, run `npm test`.
 
 Some basic HTML has been provided for this lab, along with HTML comments on what
 is needed.  Follow the provided comments and test messages to see what is needed
